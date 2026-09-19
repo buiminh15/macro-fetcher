@@ -133,7 +133,7 @@ async function fetchAllMacroData(startDateInput, endDateInput) {
 async function main() {
   const args = process.argv.slice(2);
   const startDate = args[0] || '2026-09-01';
-  const endDate   = args[1] || '2026-09-15';
+  const endDate   = args[1] || '2026-09-19';
 
   try {
     const finalData = await fetchAllMacroData(startDate, endDate);
