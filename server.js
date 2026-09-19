@@ -138,7 +138,7 @@ async function main() {
   try {
     const finalData = await fetchAllMacroData(startDate, endDate);
 
-    const fileName = `macro_${startDate}_to_${endDate}.json`;
+    const fileName = `macro_data.json`;
     const outputPath = path.join(__dirname, fileName);
 
     fs.writeFileSync(outputPath, JSON.stringify(finalData, null, 2), 'utf-8');
