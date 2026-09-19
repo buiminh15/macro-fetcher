@@ -6,7 +6,7 @@ const path = require('path');
 const CONFIG = {
   BASE_URL: 'https://endpoints.investing.com/pd-instruments/v1/calendars/economic/events/occurrences',
   DOMAIN_ID: 1,
-  COUNTRY_IDS: '5,17', // 5: Mỹ (USD), 17: Việt Nam (VND)
+  COUNTRY_IDS: '5,37,35,72,17,36,14', // 5: Mỹ (USD), 17: Việt Nam (VND)
   LIMIT: 200,
   DELAY_MS: 500,       // Nghỉ 0.5s giữa các trang
 };
